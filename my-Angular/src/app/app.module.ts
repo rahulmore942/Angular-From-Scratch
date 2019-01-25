@@ -1,13 +1,15 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
-import { FirstComponent } from './first/first.component';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { BtCardComponent } from './bt-card/bt-card.component';
+import { BtJumbComponent } from './bt-jumb/bt-jumb.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponent
+    BtCardComponent,
+    BtJumbComponent,
+
   ],
   imports: [
     BrowserModule
