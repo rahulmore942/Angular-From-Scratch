@@ -7,3 +7,27 @@
     <input type="{{typ}}" class="{{cls}}" value="click me..!!">
   </div>
 </div>
+<div class="row">
+  <div class="col-md-125">
+    <input [type]="'button'" [class]="cls" [value]="nm">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div [class.jumbotron]="true">I am developer</div>
+    <div [style.border]="'2px solid green'">I am developer</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <input type="button" class="btn btn-warning" value="hit me..!!" (click)="ClickMe($event)">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <input type="text" [(ngModel)]='anyThing'> {{anyThing}}
+  </div>
+</div>

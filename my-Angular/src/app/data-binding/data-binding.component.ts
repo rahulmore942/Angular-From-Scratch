@@ -11,9 +11,17 @@ export class DataBindingComponent implements OnInit {
   mul = '2'
   typ = 'button'
   cls = 'btn btn-success'
+  anyThing : string ="hello"
+
+
   constructor() { }
 
   ngOnInit() {
+
+  }
+  ClickMe(ev : MouseEvent){
+     console.log("Clicked")
+     console.log(ev) 
   }
 
 }

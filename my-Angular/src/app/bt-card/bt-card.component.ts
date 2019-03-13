@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bt-card.component.css']
 })
 export class BtCardComponent implements OnInit {
-
+ 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {}
+    
   }
 
-}
+
