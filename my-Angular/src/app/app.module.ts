@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
+import { ToddMotoComponent } from './todd-moto/todd-moto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     BtJumbComponent,
     BtCardComponent,
     MyAlert2Component,
-    DataBindingComponent
+    DataBindingComponent,
+    ToddMotoComponent
   ],
   imports: [
     BrowserModule,
